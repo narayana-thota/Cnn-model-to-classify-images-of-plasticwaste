@@ -44,4 +44,4 @@ During this week, the following tasks were completed:
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/username/cnn-model.git  
+   gh repo clone narayana-thota/Cnn-model-to-classify-images-of-plasticwaste 

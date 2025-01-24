@@ -6,9 +6,10 @@ This project involves building a Convolutional Neural Network (CNN) for image cl
 
 1. [Overview](#overview)  
 2. [This Week's Work](#this-weeks-work)  
-3. [Technologies Used](#technologies-used)  
-4. [Setup Instructions](#setup-instructions)  
-5. [Contributors](#contributors)  
+3. [Technologies Used](#technologies-used)
+4.  [Dataset Link](#dataset-link)
+5. [Setup Instructions](#setup-instructions)  
+6. [Contributors](#contributors)  
 
 ## Overview  
 
@@ -38,10 +39,26 @@ During this week, the following tasks were completed:
   - TensorFlow/Keras  
   - NumPy  
   - Matplotlib  
-  - Pandas (if applicable for data handling)  
-
+  - Pandas (if applicable for data handling)
+## Dataset Link
+   [Dataset Link](https://www.kaggle.com/datasets/techsash/waste-classification-data/data)
 ## Setup Instructions  
 
 1. Clone the repository:  
    ```bash  
-   https://github.com/narayana-thota/Cnn-model-to-classify-images-of-plasticwaste.git 
+   https://github.com/narayana-thota/Cnn-model-to-classify-images-of-plasticwaste.git
+2. Navigate to the project directory:
+   ```bash
+   cd cnn-model  
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt  
+4. Run the model training script:
+   ```bash
+   python train.py  
+5. Evaluate the model on the test set:
+   ```bash
+   python evaluate.py  
+## Contibutors
+   Thota Om Sada Siva Venkata Narayana
+

@@ -57,7 +57,7 @@ During this week, the following tasks were completed:
 5. Evaluate the model on the test set:
    '''bash
    python evaluate.py  
-##Contributors
+## Contributors
 . Contributors
 Thota Om Sada Siva Venkata Narayana
    

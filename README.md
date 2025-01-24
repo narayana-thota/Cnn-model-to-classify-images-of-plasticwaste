@@ -58,7 +58,6 @@ During this week, the following tasks were completed:
    '''bash
    python evaluate.py  
 ## Contributors
-. Contributors
 Thota Om Sada Siva Venkata Narayana
    
    

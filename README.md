@@ -7,8 +7,9 @@ This project involves building a Convolutional Neural Network (CNN) for image cl
 1. [Overview](#overview)  
 2. [This Week's Work](#this-weeks-work)  
 3. [Technologies Used](#technologies-used)  
-4. [Setup Instructions](#setup-instructions)  
-5. [Contributors](#contributors)  
+4. [Setup Instructions](#setup-instructions)
+5. [Dataset Link](#dataset-link)
+6. [Contributors](#contributors)  
 
 ## Overview  
 
@@ -38,7 +39,10 @@ During this week, the following tasks were completed:
   - TensorFlow/Keras  
   - NumPy  
   - Matplotlib  
-  - Pandas (if applicable for data handling)  
+  - Pandas (if applicable for data handling)
+## Dataset link
+   [Dataset Link](https://www.kaggle.com/datasets/techsash/waste-classification-data/data)
+
 
 ## Setup Instructions  
 

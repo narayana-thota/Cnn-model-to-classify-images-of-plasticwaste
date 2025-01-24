@@ -46,16 +46,16 @@ During this week, the following tasks were completed:
    ```bash  
    https://github.com/narayana-thota/Cnn-model-to-classify-images-of-plasticwaste.git 
 2. Navigate to the project directory:
-   '''bash
+   ```bash
    cd cnn-model  
 3. Install the required dependencies:
-   '''bash
+   ```bash
    pip install -r requirements.txt  
 4. Run the model training script:
-   '''bash
+   ```bash
    python train.py  
 5. Evaluate the model on the test set:
-   '''bash
+   ```bash
    python evaluate.py  
 ## Contributors
 Thota Om Sada Siva Venkata Narayana

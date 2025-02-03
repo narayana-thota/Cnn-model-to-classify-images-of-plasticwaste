@@ -1,49 +1,59 @@
-# CNN Model for Image Classification  
+Waste Management Using CNN Model
+This project involves building a Convolutional Neural Network (CNN) model for waste management. The goal is to classify images of waste items into two categories: Organic and Recyclable. This README outlines the work done during the week, setup instructions, and relevant details.
 
-This project involves building a Convolutional Neural Network (CNN) for image classification. The primary goal is to classify images into predefined categories with high accuracy. This README outlines the work done during the week, setup instructions, and relevant details.  
+Table of Contents
+Overview
+This Week's Work
+Technologies Used
+Setup Instructions
+Dataset Link
+Contributors
+Overview
+The CNN model is designed to process images of waste items and classify them into two categories:
 
-## Table of Contents  
+Organic
+Recyclable
+The model leverages deep learning techniques to extract features from images and use those features to perform image classification. This approach aims to automate the waste sorting process, making it more efficient and accurate.
 
-1. [Overview](#overview)  
-2. [This Week's Work](#this-weeks-work)  
-3. [Technologies Used](#technologies-used)  
-4. [Setup Instructions](#setup-instructions)
-5. [Dataset Link](#dataset-link)
-6. [Contributors](#contributors)  
+This Week's Work
+During this week, the following tasks were completed:
 
-## Overview  
+Data Preparation:
 
-The CNN model is designed to process image data and extract meaningful features for classification. It uses layers such as convolution, pooling, and dense layers to learn patterns from the dataset.  
+Collected and preprocessed the dataset from the TRAIN and TEST directories.
+Images were resized and normalized before being fed into the model.
+Data augmentation using the ImageDataGenerator was applied for better model generalization.
+Model Architecture:
 
-## This Week's Work  
+Designed a CNN architecture with the following layers:
+Convolutional layers with ReLU activation
+Max pooling layers for downsampling
+Fully connected layers for classification
+Dropout layers for regularization
+The final output layer used a sigmoid activation to classify into two categories: Organic or Recyclable.
+Model Training:
 
-During this week, the following tasks were completed:  
-1. **Model Architecture:**  
-   - Designed the CNN architecture with layers including:
-     - Convolutional layers  
-     - Max Pooling layers  
-     - Fully Connected layers  
-   - Included `ReLU` activation for non-linearity.  
-2. **Dataset Preparation:**  
-   - Loaded and preprocessed the dataset (resizing, normalization).  
-3. **Model Training:**  
-   - Trained the model on the prepared dataset with validation split.  
-   - Used an optimizer (`Adam`) and calculated loss (`categorical_crossentropy`).  
-4. **Performance Metrics:**  
-   - Evaluated the model using accuracy and loss on the test set.  
+Trained the model for 1 epoch using the Adam optimizer and binary cross-entropy loss function.
+Used batch size of 256 for training.
+Visualization:
 
-## Technologies Used  
+Displayed a pie chart showing the distribution of labels in the dataset (Organic vs. Recyclable).
+Plotted random sample images from the dataset to visually check their labels.
+Performance Metrics:
 
-- **Programming Language:** Python  
-- **Libraries/Frameworks:**  
-  - TensorFlow/Keras  
-  - NumPy  
-  - Matplotlib  
-  - Pandas (if applicable for data handling)
-## Dataset link
-   [Dataset Link](https://www.kaggle.com/datasets/techsash/waste-classification-data/data)
-
-
+Evaluated the model on the validation set to track accuracy and loss.
+Technologies Used
+Programming Language: Python
+Libraries/Frameworks:
+TensorFlow/Keras
+OpenCV
+NumPy
+Pandas
+Matplotlib
+tqdm (for progress bars)
+Dataset Link
+The dataset used for this project is available at the following link:
+Dataset Link
 ## Setup Instructions  
 
 1. Clone the repository:  

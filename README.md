@@ -63,7 +63,8 @@ The CNN model was designed with the following layers:
 ## 📂 Dataset
 - The dataset consists of images of **various types of waste**, including **plastic, organic, and recyclable materials**.
 - 🏷 Each image is **labeled according to its category**.
-- 🔗 The dataset is available at the following link: **[Dataset Link]("https://www.kaggle.com/datasets/techsash/waste-classification-data/data")**
+🔗 The dataset is available at the following link: **[Dataset Link](https://www.kaggle.com/datasets/techsash/waste-classification-data/data)**
+
 
 ---
 

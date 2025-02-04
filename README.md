@@ -1,4 +1,4 @@
-♻️ Waste Management Using CNN Model 🧠
+## ♻️ Waste Management Using CNN Model 🧠
 
 📌 Overview
 

@@ -1,6 +1,6 @@
 ## ♻️ Waste Management Using CNN Model 🧠
 
-📌 Overview
+## 📌 Overview
 
 This project involves building a Convolutional Neural Network (CNN) model for waste management. The goal is to classify images of waste items into different categories, such as Organic, Recyclable, and various types of plastic waste. The model leverages deep learning techniques to extract features from images and use those features for accurate classification. This approach aims to automate the waste sorting process, making it more efficient and precise. 🚀
 
